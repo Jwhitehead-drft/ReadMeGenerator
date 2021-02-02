@@ -32,20 +32,30 @@ const generateMarkdown = function(data) {
   return `# ${data.project},
 
 
-##Title
+## Title
 
 ${data.project},
 
-###Description
+## Description
 
 ${data.description},
 
-####Dependencies
+## Dependencies
 
-####Email
+#### Email
 
-If you have questions regarding this project, you can contact me at ${data.email},
+If you have questions regarding this project, you can contact me at ${data.email}. More of my work can be found at ${data.github}
 
+## Tests
+For testing, run the following command:
+
+    ${data.tests}
+
+## Knowledge
+${data.contribute}
+${data.knowledge}
+
+######You have reached the end of the ReadMe
 `;
 };
 

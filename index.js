@@ -20,7 +20,7 @@ const questions = [
     },{
         type: 'input',
         name: 'description',
-        message: 'Provide a short discription of this project'
+        message: 'Provide a short description of this project'
     },{
         type: 'input',
         name: 'license',
