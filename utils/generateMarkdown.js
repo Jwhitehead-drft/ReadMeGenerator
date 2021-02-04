@@ -44,7 +44,7 @@ ${data.description},
 
 #### Email
 
-If you have questions regarding this project, you can contact me at ${data.email}. More of my work can be found at ${data.github}
+If you have questions regarding this project, you can contact me at ${data.email}. My GitHub user name is ${data.github}
 
 ## Tests
 For testing, run the following command:
